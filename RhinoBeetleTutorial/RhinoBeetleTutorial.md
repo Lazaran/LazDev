@@ -14,7 +14,7 @@ Today, we're going to make this lil' guy a new mob in Minecraft.
 
 <!-- ![sparkles](img/RhinoBeetle_V3.png) -->
 
-<p align="center">
+<p>
   <img src="img/RhinoBeetle_V3.png", style="background:red;" />
 </p>
 We'll use the MythicMobs and ModelEngine plugins, along with Blockbench and Audacity, as well as a safe Youtube to MP3 converter.
