@@ -1,10 +1,6 @@
 
 
-<style>
-body {
-  background-color: #C0DCC0;
-}
-</style>
+<div style="background:red;" >
 
 Hi, Welcome to my first tutorial!
 
@@ -19,7 +15,7 @@ Today, we're going to make this lil' guy a new mob in Minecraft.
 <!-- ![sparkles](img/RhinoBeetle_V3.png) -->
 
 <p align="center">
-  <img src="img/RhinoBeetle_V3.png" />
+  <img src="img/RhinoBeetle_V3.png", style="background:red;" />
 </p>
 We'll use the MythicMobs and ModelEngine plugins, along with Blockbench and Audacity, as well as a safe Youtube to MP3 converter.
 
@@ -42,3 +38,5 @@ You may notice that the critter sounds like a pig, no worries, modelengine on it
 To start integrating, we need to make a new MythicMob (MM henceforth) by making 'crittername.yml' in **plugins/MythicMobs/mobs**
 
 An MM can have a lot of custom parts but we're going to stick with what I used when I made my Rhino Beetle.
+
+</div>
