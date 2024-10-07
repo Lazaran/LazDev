@@ -2,11 +2,12 @@
 # Laz Dev - Tutorial 1
 > [!WARNING] 
 > ${\color{BurntOrange}\text{This tutorial was written for 1.20.6!}\LaTeX\text{If you encounter problems using a different version, you're on your own!}}$\wl
+> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6! \\ If you encounter problems using a different version, you're on your own!}}$
 
 
 
 
-//> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6!}\newline\text{If you encounter problems using a different version, you're on your own!}}$
+//> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6!\\ If you encounter problems using a different version, you're on your own!}}$
 
 
 
