@@ -28,7 +28,7 @@ Today, we're going to make this lil' guy a new mob in Minecraft.
 ![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png#thumbnail bordered)s
 
 
-<img src="img\RhinoBeetle_V3.png">
+<img src="img\RhinoBeetle_V3.png" style="border: solid 5px white; border-radius: 20px">
 
 $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
