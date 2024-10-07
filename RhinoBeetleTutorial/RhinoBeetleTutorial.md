@@ -2,7 +2,7 @@
 # Laz Dev - Tutorial 1
 > [!WARNING] 
 > 
-> $\color{BurntOrange}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
+> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6.}\diamond\}\text{If you use a different version and encounter any problems, you're on your own}}$
 
 > [!TIP] 
 > ${\color{BurntOrange}The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
