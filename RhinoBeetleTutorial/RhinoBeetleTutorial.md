@@ -2,9 +2,7 @@
 # Laz Dev - Tutorial 1
 > [!WARNING] 
 > 
-> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6}}$
-<br>
-> ${\color{BurntOrange}\text{If you use a different version and encounter any problems, you're on your own}}$
+> ${\color{BurntOrange}\text{This tutorial was written for 1.20.6\n If you use a different version and encounter any problems, you're on your own}}$
 
 
 Hi, Welcome to my first tutorial!
