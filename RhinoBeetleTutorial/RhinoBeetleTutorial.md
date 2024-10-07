@@ -9,7 +9,7 @@
 > ${\emph{hrvk}\text{some black text}\color{red}\text{followed by a red}}$
 
 > [!TIP] 
-> ${\color{BurntOrange}\texttt{gelp you stupid}}$
+> ${\color{BurntOrange}\text{gelp you stupid}}$
 
 ${\text{}}
 
