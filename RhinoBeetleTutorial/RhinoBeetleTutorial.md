@@ -1,6 +1,15 @@
 
 # Heading 1
 
+img[src*="#thumbnail"] {
+   width:150px;
+   height:100px;
+}
+
+img[src~="bordered"] {
+   border: 1px solid black;
+}
+
 Hi, Welcome to my first tutorial!
 
 *   [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
@@ -10,18 +19,16 @@ Hi, Welcome to my first tutorial!
 Today, we're going to make this lil' guy a new mob in Minecraft.
 ![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png#thumbnail)
 
+![Kitten](RhinoBeetle\_V3.png =150x100) 
+
+![Kitten](RhinoBeetle\_V3.png){: width=150 height=100 style="float:right; padding:16px"} 
+
 (picture of rhino beetle)
 
 ![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png#thumbnail bordered)s
 
-img[src*="#thumbnail"] {
-   width:150px;
-   height:100px;
-}
 
-img[src~="bordered"] {
-   border: 1px solid black;
-}
+<img src="img\RhinoBeetle_V3.png">
 
 $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
