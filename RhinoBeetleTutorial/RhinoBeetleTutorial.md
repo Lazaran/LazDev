@@ -8,6 +8,8 @@
 > ${\color{BurntOrange}The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 > $\emph{some black text, {\color{red}followed by a red\ fragment}}$
 
+> [!TIP] 
+> ${\color{BurntOrange}\text{gelp you stupid}}$
 
 &\begin{list_type}$
 
