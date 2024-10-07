@@ -1,39 +1,28 @@
 
-# Heading 1
+# Laz Dev - Tutorial 1
+>[!WARNING] Warning: This tutorial was written using Minecraft 1.20.6, if you are using a different version, there is no gurantee any of this will work
 
-img[src*="#thumbnail"] {
-   width:150px;
-   height:100px;
-}
+>[!TIP] $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
-img[src~="bordered"] {
-   border: 1px solid black;
-}
 
 Hi, Welcome to my first tutorial!
+-
+-
+- Plugins
+- Download
+- Wiki
+    - [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
+    - [MythicMobs](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home)
 
-*   [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
+Today, we're going to make this guy a new mob in Minecraft.
 
-*   [MythicMobs](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home)
-
-Today, we're going to make this lil' guy a new mob in Minecraft.
-![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png#thumbnail)
-
-![Kitten](RhinoBeetle\_V3.png =150x100) 
-
-![Kitten](RhinoBeetle\_V3.png){: width=150 height=100 style="float:right; padding:16px"} 
-
-(picture of rhino beetle)
-
-![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png#thumbnail bordered)s
-
-
-<img src="img\RhinoBeetle_V3.png" style="border: solid 5px white; border-radius: 20px">
+<p align="center">
+<img src="img/RhinoBeetle_V3.png" >
+</p>
 
 $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
 >[!TIP]Wondering what to do?
-
 
 We'll use the MythicMobs and ModelEngine plugins, along with Blockbench and Audacity, as well as a safe Youtube to MP3 converter.
 
