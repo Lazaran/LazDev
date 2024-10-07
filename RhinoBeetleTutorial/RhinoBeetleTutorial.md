@@ -6,10 +6,18 @@
 
 > [!TIP] 
 > ${\color{BurntOrange}The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
-> $\emph{some black text, {\color{red}followed by a red\ fragment}}$
+> ${\emph{hrvk}\text{some black text}\color{red}\text{followed by a red}}$
 
 > [!TIP] 
-> ${\color{BurntOrange}\text{gelp you stupid}}$
+> ${\color{BurntOrange}\texttt{gelp you stupid}}$
+
+${\text{}}
+
+${\begin{minipage}{2in}
+I think this is: su\-per\-cal\-%
+i\-frag\-i\-lis\-tic\-ex\-pi\-%
+al\-i\-do\-cious
+\end{minipage}}$
 
 &\begin{list_type}$
 
