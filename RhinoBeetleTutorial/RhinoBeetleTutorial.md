@@ -3,6 +3,7 @@
 > [!WARNING] 
 > 
 > ${\color{BurntOrange}\text{This tutorial was written for 1.20.6}}$
+<br>
 > ${\color{BurntOrange}\text{If you use a different version and encounter any problems, you're on your own}}$
 
 
