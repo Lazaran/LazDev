@@ -7,10 +7,10 @@
 > [!TIP] 
 > ${\color{BurntOrange}The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 > ${\emph{hrvk}\text{some black text}\color{red}\text{followed by a red}}$
-
+<p align="center">
 > [!TIP] 
-> ${\centering\color{BurntOrange}\text{gelp you stupid}}$
-
+> ${\color{BurntOrange}\text{gelp you stupid}}$
+</p>
 ${\text{}}
 
 ${\begin{minipage}{2in}
