@@ -6,6 +6,8 @@ Hi, Welcome to my first tutorial!
 
 Today, we're going to make this lil' guy a new mob in Minecraft.
 
+/
+
 ![RhinoBeetle_V3.png](img/RhinoBeetle_V3.png)
 
 (picture of rhino beetle)
