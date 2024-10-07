@@ -1,11 +1,21 @@
 
 # Laz Dev - Tutorial 1
 > [!WARNING] 
-> This tutorial was written using Minecraft 1.20.6, if you are using a different version, there is no gurantee any of this will work
+> 
+> $\color{BurntOrange}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
 > [!TIP] 
-> $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
+> ${\color{BurntOrange}The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
+> $\emph{some black text, {\color{red}followed by a red\ fragment}}$
 
+
+&\begin{list_type}$
+
+   $\item {The first item}$
+
+   \item The second item 
+   \item The third etc \ldots
+\end{list_type}$
 
 Hi, Welcome to my first tutorial!
 -
@@ -21,6 +31,16 @@ Today, we're going to make this guy a new mob in Minecraft.
 <p align="center">
 <img src="img/RhinoBeetle_V3.png" >
 </p>
+
+
+ 
+\[ f(n) =
+  \begin{cases}
+    n/2       & \quad \text{if } n \text{ is even}\\
+    -(n+1)/2  & \quad \text{if } n \text{ is odd}
+  \end{cases}
+\]
+
 
 $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
