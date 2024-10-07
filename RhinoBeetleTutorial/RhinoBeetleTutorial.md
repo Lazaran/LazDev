@@ -10,6 +10,8 @@ Today, we're going to make this lil' guy a new mob in Minecraft.
 
 (picture of rhino beetle)
 
+![](https://holocron.so/uploads/2899f584-rhinobeetle-v3.png)
+
 We'll use the MythicMobs and ModelEngine plugins, along with Blockbench and Audacity, as well as a safe Youtube to MP3 converter.
 
 We begin by modeling our creature in Blockbench, in the Generic Model project format. Give it a texture and some animations. Be sure to name the animations as per the default state names in the ModelEngine config.yml file, this way they will be automatically assigned when imported, even as a MythicMob model.
