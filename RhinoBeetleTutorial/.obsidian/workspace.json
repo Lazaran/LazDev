@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "76c650e44e9b2c12",
+    "type": "split",
+    "children": [
+      {
+        "id": "8873fcadd5fa1648",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "211b3ad71ad63ced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RhinoBeetleTutorial.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c5703cda3445e8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c7581bb9d0c4f3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99014c3bae4ee0ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7bcdf411333fa0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7ad603c0911a0548",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b9c0a3ddc2e86cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9d0af7f62b273b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3af168a7ecfe50fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "RhinoBeetleTutorial.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ecc45ffe6eb375f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "RhinoBeetleTutorial.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec3bd05205b403dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1f09fc151d149f35",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "RhinoBeetleTutorial.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "211b3ad71ad63ced",
+  "lastOpenFiles": [
+    "Dink.md",
+    "TemplateTutorial.md",
+    "RhinoBeetleTutorial.md",
+    "img/RhinoBeetle_V3.png"
+  ]
+}
