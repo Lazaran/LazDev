@@ -1,15 +1,14 @@
 Hi, Welcome to my first tutorial!
 
-*   [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
+- [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
 
-*   [MythicMobs](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home)
+- [MythicMobs](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home)
 
 Today, we're going to make this lil' guy a new mob in Minecraft.
-![RhinoBeetle\_V3.png](img/RhinoBeetle_V3.png)
+
+![RhinoBeetle_V3.png](img/RhinoBeetle_V3.png)
 
 (picture of rhino beetle)
-
-[](img\RhinoBeetle_V3.png)
 
 We'll use the MythicMobs and ModelEngine plugins, along with Blockbench and Audacity, as well as a safe Youtube to MP3 converter.
 
