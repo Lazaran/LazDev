@@ -1,6 +1,7 @@
 
 # Laz Dev - Tutorial 1
-> [!WARNING] Warning: This tutorial was written using Minecraft 1.20.6, if you are using a different version, there is no gurantee any of this will work
+> [!WARNING] 
+> This tutorial was written using Minecraft 1.20.6, if you are using a different version, there is no gurantee any of this will work
 
 > [!TIP] $\color{Apricot}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
 
