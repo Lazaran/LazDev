@@ -31,10 +31,21 @@ ___
   - Wiki
     - [ModelEngine](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home)
     - [MythicMobs](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/home)
-- Resource Pack Info
-  - [MC Models' Resource Pack Basics](https://mcmodels.net/guides/2-pack-basics)
-  - [MC Models' Custom Sounds Guide](https://mcmodels.net/guides/4-sounds)
 
+- Helpful Guides
+  - Resource Pack Guides
+    - [MC Models' Resource Pack Basics](https://mcmodels.net/guides/2-pack-basics)
+    - [MC Models' Custom Sounds Guide](https://mcmodels.net/guides/4-sounds)
+  - ModelEngine Guides
+    - [Creating a Model](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/Modeling/Creating-a-Model#hitbox-and-eye-height)
+    - [Bone Behaviours](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/Modeling/Bone-Behaviors)
+    - [Animating a Model](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/Modeling/Animating-a-Model)
+    - [Model Mechanics](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/MythicMobs/Model-Mechanics)
+  - MythicMobs Guides
+    - [Creating Your First Mob](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Guides/(Step-3)-Creating-Your-First-Mob)
+    - [MythicMobs Skill Mechanics](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Skills/Mechanics)
+  - Minecraft Info
+    - [Sound Events](https://minecraft.fandom.com/wiki/Sounds.json#Sound_events)
 <br>
 
 ## Step 1: Modeling and Animation
@@ -82,7 +93,7 @@ ___
 Got your critter? Here's mine:
 
 <p align="center">
-<img src="img/RhinoBeetleSmall9.gif" >
+<img src="img/RhinoBeetle_V4.gif" >
 </p>
 
 His ``idle`` animation is a wing flutter and he does a flip for his ``death`` animation.
@@ -116,6 +127,7 @@ Before we give our critter cute cacophonous cries, we must give it the power to 
 Start by navigating to ``plugins/MythicMobs/mobs`` and make a file ``crittername.yml``
 
 If you aren't familiar with making **MythicMobs** I strongly recommend checking out the [Creating Your First Mob](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Guides/(Step-3)-Creating-Your-First-Mob) guide to get started.
+You can deal with that pig noise now by using the `Silent` Option.
 
 Once you have set up your critter you can check out [Model Mechanics](https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/MythicMobs/Model-Mechanics) and get a feel for what you can do with it.
 
@@ -126,13 +138,66 @@ For example:
     Skils:
       - model{m=rhinobeetle;usm=true} @self ~onSpawn
 Meaning:
-
-  - m = Your blockbench filename
+  - -model is the mechanic
+  - m = Your blockbench model filename 
   - usm = Use state machine?
-  - @self = Apply it to the critter
+  - @self = Apply the model to the critter
   - ~onSpawn = Apply it when the critter spawns
 
-Obviously there are plenty of other things you could do, the `Model` mechanic alone has over a dozen properties you could alter when using it.
-____
+Obviously there are plenty of other things you could do,
+the `Model` mechanic alone has over a dozen properties you could alter when using it.
 
-Once you are satisfied with your mob configuration, reload MythicMobs with the ``mm reload`` command and 
+Once you are satisfied with your mob configuration.
+Return to the game and reload MythicMobs with ``mm reload``.
+Then spawn in your critter using ``mm mobs spawn crittername``.
+
+### Step 4: Making It scream
+
+You might have noticed, while going through the [MythicMobs Skill Mechanics](https://git.mythiccraft.io/mythiccraft/MythicMobs/-/wikis/Skills/Mechanics) because of course you would,
+that you can use Triggers to make the mob play a sound when it dies or gets hurt.
+There should be a way to put it on a random interval, but at the moment I can only get ``~onTimer`` to work at regular intervals.
+
+For example:
+
+    Skills:
+      - sound{s=entity.enderman.scream} @self ~onDeath | From MythicMobs example
+      OR
+      - sound{s=minecraft:custom.rhinobeetle.hiss4} @self ~onDeath  | My Rhino Beetle audio    
+ 
+Meaning:
+  - -sound is the mechanic
+  - s = sound event name
+  - @self = Play the sound from the critter
+  - ~onDeath = Play the sound when it dies
+
+The first example uses built-in Minecraft sound events, for which the full list can be found [HERE](https://minecraft.fandom.com/wiki/Sounds.json#Sound_events).
+
+The second example uses a resource pack sound, which you can add by following the [Custom Sounds Guide](https://mcmodels.net/guides/4-sounds) on MC Models.
+
+If you need critter sound effects, I recommend searching YouTube Shorts,
+it worked really well for my Rhino Beetle.
+Use a YouTube to Mp3 downloader and import the file into Audacity. 
+Trim out what you don't need and clean the audio. 
+Export selected tracks as ``.ogg`` files and put them in your resourcepack.
+
+The sound event name is determined by the folder structure of the resourcepack.
+If you followed the sound guide your folder structure should be something like ``resourcepack_name/assets/minecraft/sounds/custom``. 
+
+You could add more folders to organize the sounds by mob/entity like I did for ``custom/rhinobeetle/hiss4.ogg``. 
+Bear in mind each folder deep increases the length of the sound event name in the mechanic.
+
+___
+
+### Conclusion
+
+And that's it! When you spawn your MythicMob now it will squeak and squawk how you told it to!
+
+I'm really bored of writing this. XD
+
+I'm sure it's only because it's taken multiple days to figure out Markdown and getting a good workflow.
+This guide is complete, just lacks polish.
+I will come back and tidy it later maybe, but the next will be better.
+
+Thank you for reading!
+
+~ lLazaran
